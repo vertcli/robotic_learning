@@ -1,0 +1,14 @@
+Instructions in order to compile ardrone_autonomy and tum_ardrone under hydro ROS distribution:
+
+DO:
+modify your ./bashrc file and add these lines:
+
+source /home/user/catkin_ws/devel/setup.bash
+export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:/home/user/catkin_ws/src/ardrone_autonomy
+
+cd ~/catkin_ws/src/ardrone_autonomy/
+./build_sdk.sh
+sudo apt-get install libblas-dev
+sudo apt-get install liblapack-dev
+cd ~/catkin_ws/
+catkin_make

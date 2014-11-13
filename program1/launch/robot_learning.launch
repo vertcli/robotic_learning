@@ -1,0 +1,7 @@
+<launch>
+
+	<node	pkg='program1'
+			type='camera_vision'
+			name='camera_vision'
+			output='screen'/>
+</launch>

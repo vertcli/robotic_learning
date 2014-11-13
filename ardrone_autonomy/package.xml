@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<package>
+	<name>ardrone_autonomy</name>
+	<version>0.0.1</version>
+	<description>
+		ardrone_autonomy
+	</description>
+	<author>Mani Monajjemi</author>
+	<maintainer email="mmonajje@cs.sfu.ca">Mani Monajjemi</maintainer>
+	
+	<license>BSD</license>
+
+	<url>http://ros.org/wiki/ardrone_autonomy</url>
+	
+	<export>
+		<rosdoc config="rosdoc.yaml" />
+	</export>
+
+	<build_depend>libsdl-dev</build_depend>
+	<build_depend>roscpp</build_depend>
+	<build_depend>image_transport</build_depend>
+	<build_depend>sensor_msgs</build_depend>
+	<build_depend>std_srvs</build_depend>
+	<build_depend>tf</build_depend>
+	<build_depend>message_runtime</build_depend>
+	<build_depend>camera_info_manager</build_depend>
+
+	
+	<buildtool_depend>catkin</buildtool_depend>
+	
+	<run_depend>libsdl-dev</run_depend>
+	<run_depend>roscpp</run_depend>
+	<run_depend>image_transport</run_depend>
+	<run_depend>sensor_msgs</run_depend>
+	<run_depend>std_srvs</run_depend>
+	<run_depend>tf</run_depend>
+	<run_depend>message_runtime</run_depend>
+	<run_depend>camera_info_manager</run_depend>
+	
+</package>
